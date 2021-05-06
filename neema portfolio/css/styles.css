@@ -83,6 +83,10 @@ hr {
   overflow: visible;
 }
 
+#home div:nth-child(2){
+padding:1rem;
+}
+
 h1,
 h2,
 h3,
