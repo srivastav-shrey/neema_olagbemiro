@@ -10566,3 +10566,8 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+@media(max-width:412px){
+  h1,.h1{
+  font-size:5rem!important;
+  }
+}
