@@ -14,7 +14,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #00adb5;
+  --primary: #ffc107;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -82,8 +82,6 @@ hr {
   height: 0;
   overflow: visible;
 }
-
-
 
 h1,
 h2,
@@ -588,7 +586,6 @@ pre code {
   .container {
     max-width: 540px;
   }
-  h1{font-size:5rem;}
 }
 @media (min-width: 768px) {
   .container-md,
@@ -4641,7 +4638,7 @@ input[type="button"].btn-block {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: #f7f7f7;
+  color: #333;
 }
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
@@ -10221,7 +10218,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: var(--primary) !important;
+  color: var(--danger) !important;
 }
 
 a.text-primary:hover,
@@ -10566,8 +10563,9 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-@media(max-width:412px){
-  h1,.h1{
-  font-size:5rem!important;
+@media screen and (max-width: 412px) {
+  h1,
+  .h1 {
+    font-size: 5rem;
   }
 }
